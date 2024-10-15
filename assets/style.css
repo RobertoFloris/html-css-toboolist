@@ -3,9 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  background-color: #F6F8FA;
+}
+
 header{
-  margin: 10px;
-  margin-left: 20px;
+  background-color: white;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+header div{
+  padding-left: 50px;
 }
 
 header span{
@@ -16,4 +26,21 @@ header span{
 header img{
   vertical-align: middle;
   margin-top: 0;
+}
+
+.container{
+  padding: 10px 50px 20px 50px ;
+  background-color: white;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+button{
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.list{
+  padding-top: 20px;
 }
