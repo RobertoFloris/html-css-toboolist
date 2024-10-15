@@ -35,12 +35,61 @@ header img{
   margin: 0 auto;
 }
 
+.header-button{
+  padding-bottom: 20px;
+}
+
 button{
-  width: 100px;
-  height: 30px;
+  color: white;
+  width: 80px;
+  height: 25px;
   border-radius: 5px;
 }
 
-.list{
-  padding-top: 20px;
+.task{
+  background-color: #44AAF2;
+  width: 100px;
+  height: 30px;
+}
+
+.section{
+  background-color: white;
+  color: gray;
+  border-color: grey;
+  width: 100px;
+  height: 30px;
+}
+
+.editorial{
+  background-color: #44AAF2;
+  border-radius: 20px;
+}
+
+.q1{
+  background-color: #9E73DE;
+  border-radius: 20px;
+}
+
+.recruiting{
+  background-color: #65C3AC;
+  border-radius: 20px;
+}
+
+.mobile{
+  background-color: #F39F2D;
+  border-radius: 20px;
+}
+
+.website{
+  background-color: #D8669B;
+  border-radius: 20px;
+}
+
+.sales{
+  background-color: #B0C91E;
+  border-radius: 20px;
+}
+
+li{
+  padding: 10px;
 }
