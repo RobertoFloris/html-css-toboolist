@@ -94,11 +94,11 @@ li{
   padding: 10px;
 }
 
-li.list::marker{
+li.list::before{
   content: "\25BE";
 }
 
-ul {
+.list, ul{
   list-style: none;
   padding: 0; 
 }
