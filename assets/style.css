@@ -93,3 +93,38 @@ button{
 li{
   padding: 10px;
 }
+
+li.list::marker{
+  content: "▼";
+}
+
+ul {
+  list-style: none;
+  padding: 0; 
+}
+
+.spunta {
+  display: inline-block;
+  width: 20px; 
+  height: 20px; 
+  background-color: white; 
+  border: 2px solid green; 
+  border-radius: 50%; 
+  color: green; 
+  text-align: center; 
+  line-height: 20px; 
+  margin-right: 10px;
+}
+
+.croce {
+  display: inline-block;
+  width: 20px; 
+  height: 20px; 
+  background-color: white; 
+  border: 2px solid red; 
+  border-radius: 50%; 
+  color: red; 
+  text-align: center; 
+  line-height: 20px; 
+  margin-right: 10px;
+}
