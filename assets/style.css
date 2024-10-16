@@ -95,7 +95,7 @@ li{
 }
 
 li.list::marker{
-  content: "▼";
+  content: "\25BE";
 }
 
 ul {
